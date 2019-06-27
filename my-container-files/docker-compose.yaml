@@ -1,0 +1,10 @@
+version 3.3
+
+services:
+
+  levent:
+    image: leventelibal/apache6
+    restart: always
+    ports:
+      - "9070:80"
+
